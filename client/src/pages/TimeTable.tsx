@@ -23,24 +23,7 @@ interface ScheduleItem {
 
 const TimeTable: React.FC = () => {
   const [events, setEvents] = useState<ScheduleItem[]>([
-    { id: 1, time: "4:00", activity: "Wake up", completed: false },
-    { id: 2, time: "", activity: "Take Wash", completed: false },
-    { id: 3, time: "", activity: "Tahajjud + Amals", completed: false },
-    { id: 4, time: "", activity: "Fajar + Amals", completed: false },
-    { id: 5, time: "", activity: "Cardio Exercise in Sunlight", completed: false },
-    { id: 6, time: "", activity: "Morning Meal", completed: false },
-    { id: 7, time: "", activity: "Brush + Go To Collage", completed: false },
-    { id: 8, time: "", activity: "Zohar + Amals", completed: false },
-    { id: 9, time: "", activity: "Lunch", completed: false },
-    { id: 10, time: "3:00", activity: "Qailulah", completed: false },
-    { id: 11, time: "", activity: "Collage Work", completed: false },
-    { id: 12, time: "", activity: "Asar + Amals", completed: false },
-    { id: 13, time: "", activity: "Exercise + Protine Shake", completed: false },
-    { id: 14, time: "", activity: "Maghrib + Amals", completed: false },
-    { id: 15, time: "", activity: "LP Work (Typing Speed / Arabic Lecture)", completed: false },
-    { id: 16, time: "", activity: "Isha + Amals", completed: false },
-    { id: 17, time: "", activity: "Lite Dinner", completed: false },
-    { id: 18, time: "", activity: "Brush + Sleep", completed: false }
+  
   ]);
   
   // Dialog state for adding new events
